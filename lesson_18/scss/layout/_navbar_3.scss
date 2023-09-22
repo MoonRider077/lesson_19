@@ -1,0 +1,14 @@
+@media (max-width:400px) {
+    .navbar_3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 11px;
+        padding-bottom: 17px;
+    }
+}
+@media (min-width:401px) {
+    .navbar_3 {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+header {
+   background-image: url(/assets/images/index-background-desktop.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   height: 700px;
+   position: relative;
+}
+@media screen and (min-width:401px) and (max-width:769px) {
+    header {
+    background-image: none;
+    }
+}
+@media (max-width:401px) {
+    header {
+    background-image: none;
+    }
+}
+@media (max-width:400px) {
+    header {
+        background-image: url(/assets/images/index-background-mobile\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center and top;
+        background-position-y: 70px;
+        max-width: 400px;
+        width: 100%;
+    }
+}
